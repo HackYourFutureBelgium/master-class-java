@@ -1,162 +1,163 @@
-# **Java Master class**
+# ☕ Java Backend Development – 12 Week Program
 
-## **Course Overview**
-
-This 12-week course introduces students to Java for backend development, emphasizing **essential language concepts**, **database access with JPA**, and building **RESTful APIs** using **Spring Boot**. By the end, students will be able to design, implement, and deploy a basic, full-featured backend service.
-
-For the final project, students will integrate all their learnings to build a **Book Management System** with authentication, database integration, and deployment on a cloud platform.
+Welcome to the **Java Backend Development** course! Over the next 12 weeks, you’ll go from Java fundamentals to building fully functional REST APIs using Spring Boot and databases. This hands-on course is ideal for aspiring backend developers who want to master the Java ecosystem.
 
 ---
 
-## **Week 1: Java Basics & OOP**
+## 📅 Course Format
 
-- Java Overview and Setup (JDK, IDE)
-- Basic Syntax (Variables, Data Types, Operators)
-- Control Structures (If-else, Switch, Loops)
-- Object-Oriented Programming (Classes, Objects, Methods)
-- Core OOP Principles: Encapsulation, Inheritance, Polymorphism, Abstraction
-
-### **Week 1 Task**
-
-Create a simple Java program that demonstrates basic OOP principles (e.g., a small library system with books and authors).
+- **Duration**: 12 weeks
+- **Schedule**: Monday–Friday
+- **Format**: In-person or Remote
+- **Methodology**: Code-along, hands-on exercises, mini-projects, and final project
 
 ---
 
-## **Week 2: Java Collections & Data Structures**
+## 🧭 Weekly Curriculum
 
-- Arrays and Strings
-- Java Collections (List, Set, Map)
-- Common Implementations (ArrayList, LinkedList, HashMap, HashSet)
-- Iterating over Collections (For, For-each)
+### [📁 `week-1` – Java & Programming Basics](./week-01/)
 
-### **Week 2 Task**
-
-Develop a program to manage a list of students using Java Collections, allowing basic CRUD operations.
+- Java syntax & structure
+- Variables, data types, operators
+- Input/output & basic control flow (if, switch, loops)
+- Writing simple console apps
 
 ---
 
-## **Week 3: Exception Handling & File I/O**
+### [📁 `week-2` – Methods, Arrays & Intro to OOP](./week-02/)
 
-- Exception Handling (try-catch, throw, throws)
-- Writing Custom Exceptions
-- File Handling Basics (Reading/Writing Files)
-- Intro to Serialization & Deserialization
-
-### **Week 3 Task**
-
-Create a program that reads student data from a file, processes it (e.g., adds grades), and writes the output to another file.
+- Functions/methods
+- Arrays & multidimensional arrays
+- Introduction to Object-Oriented Programming
+- Classes and objects
 
 ---
 
-## **Week 4: Databases & JPA Basics**
+### [📁 `week-3` – OOP Deep Dive](./week-03/)
 
-- Overview of Relational Databases
-- Introduction to JPA (Java Persistence API)
-- Entity-Relationship Mapping
-- Setting up Database Connections and Basic Entity Classes
-
-### **Week 4 Task**
-
-Build a simple Java console app to map entities to a database table using JPA (e.g., a `Student` entity stored in a database).
+- Encapsulation, inheritance, polymorphism
+- Constructors, static vs instance
+- Method overloading/overriding
+- Composition and class relationships
 
 ---
 
-## **Week 5: CRUD Operations with JPA**
+### [📁 `week-4` – Exception Handling & Collections](./week-04/)
 
-- Defining JPA Entities (@Entity, @Table, @Id)
-- CRUD Operations (Create, Read, Update, Delete)
-- Mapping Relationships (One-to-Many, Many-to-One)
-
-### **Week 5 Task**
-
-Expand the previous app to include CRUD operations for managing database entities (e.g., adding, updating, or removing students).
+- Exception types and try-catch-finally
+- Custom exceptions
+- Java Collections: List, Set, Map
+- Iterators and enhanced for loops
 
 ---
 
-## **Week 6: Maven & Project Setup**
+### [📁 `week-5` – Java I/O & File Handling](./week-05/)
 
-- Maven Basics (POM, Dependencies)
-- Building and Packaging Projects with Maven
-- Setting up a Basic Spring Boot Project with Maven
-
-### **Week 6 Task**
-
-Set up a Maven-based Spring Boot project, adding dependencies for JPA and testing its functionality.
+- FileReader, FileWriter, BufferedReader/Writer
+- Reading/writing files with Java
+- Serialization & deserialization
 
 ---
 
-## **Week 7: Introduction to Spring Boot**
+### [📁 `week-6` – Intro to Databases & JDBC](./week-06/)
 
-- Overview of Spring Framework and Spring Boot
-- Spring Boot Basics (@SpringBootApplication)
-- Understanding Dependency Injection
-- Creating a Simple Spring Boot Application
-
-### **Week 7 Task**
-
-Build a Spring Boot app with basic dependency injection and a simple REST controller.
+- Intro to relational databases & SQL (PostgreSQL or MySQL)
+- JDBC fundamentals
+- Connecting Java to a database
+- CRUD operations with SQL
 
 ---
 
-## **Week 8: Building REST APIs with Spring Boot**
+### [📁 `week-7` – Maven & Project Structure](./week-07/)
 
-- RESTful Web Services Overview
-- Building REST Controllers (@RestController, @RequestMapping)
-- Handling HTTP Methods (GET, POST, PUT, DELETE)
-- Validating Requests with @Valid
-
-### **Week 8 Task**
-
-Create a REST API for managing a simple resource like "Products" or "Books."
+- What is Maven & why use it
+- Setting up a Maven project
+- Dependency management
+- Organizing packages & modules
 
 ---
 
-## **Week 9: Spring Data JPA & Database Integration**
+### [📁 `week-8` – Spring Boot Basics](./week-08/)
 
-- Connecting Spring Boot with Databases
-- Spring Data JPA Overview (Repositories)
-- Query Methods and Custom Queries
-- Implementing Database CRUD via REST
-
-### **Week 9 Task**
-
-Integrate a database with the REST API and add CRUD functionality for the resource managed in Week 8.
+- Intro to Spring & Spring Boot
+- RESTful APIs with Spring Boot
+- Controllers, Services, Repositories
+- Building simple endpoints
 
 ---
 
-## **Week 10: Security, Testing, & Deployment**
+### [📁 `week-9` – Spring Boot with Database](./week-09/)
 
-- Spring Security Overview (Authentication & Authorization)
-- Securing APIs with JWT (JSON Web Tokens)
-- Testing REST APIs (JUnit, MockMvc)
-- Deploying Spring Boot Applications (e.g., Heroku, AWS)
-
-### **Week 10 Task**
-
-Secure the REST API with Spring Security and JWT, then deploy it to a cloud platform.
+- Connecting Spring Boot with PostgreSQL
+- Spring Data JPA & Entities
+- CRUD operations using Repositories
+- Application.properties & configurations
 
 ---
 
-## **Weeks 11-12: Final Project**
+### [📁 `week-10` – Validation, DTOs & Error Handling](./week-10/)
 
-### **Project: Book Management System**
-
-Students will develop a **Book Management System** with the following features:
-
-1. **User Authentication**:
-    - User registration and login using Spring Security and JWT.
-    - API endpoints secured for authenticated users.
-2. **Book Management API**:
-    - CRUD endpoints for managing books (`title`, `author`, `isbn`, `publishedDate`, `genre`).
-    - Features like pagination and filtering.
-3. **Database Integration**:
-    - Use Spring Data JPA for database operations.
-    - Establish user-to-book relationships.
-4. **Validation**:
-    - Validate input (e.g., required fields, valid ISBN).
-5. **Testing**:
-    - Unit and integration tests for endpoints.
-6. **Deployment**:
-    - Deploy the app on a cloud platform with production settings.
+- Bean validation using annotations
+- DTOs (Data Transfer Objects)
+- Custom exception handlers with @ControllerAdvice
+- ResponseEntity & HTTP status codes
 
 ---
+
+### [📁 `week-11` – Authentication & Security](./week-11/)
+
+- Password hashing (BCrypt)
+- User registration/login
+- JWT-based authentication
+- Securing endpoints with Spring Security
+
+---
+
+### [📁 `week-12` – Final Project Week](./week-12/)
+
+- Design & build a complete REST API backend
+- Connect to a real database
+- Implement authentication
+- Code review, testing, and documentation
+- Final project demo
+
+---
+
+## 🛠 Technologies Covered
+
+### ☕ Language & Frameworks
+
+- Java 17+
+- Spring Boot
+- JUnit (testing)
+
+### 🗃 Database
+
+- PostgreSQL or MySQL
+- JDBC
+- JPA / Hibernate
+
+### 🔧 Tools
+
+- Git & GitHub
+- Maven
+- IntelliJ IDEA or VS Code
+- Postman (API testing)
+- Deployment (Render or Railway)
+
+---
+
+## 🚀 Learning Outcomes
+
+By the end of this course, you will:
+
+- ✅ Understand Java syntax, OOP principles, and collections
+- ✅ Read/write to files and interact with databases
+- ✅ Build and test RESTful APIs with Spring Boot
+- ✅ Implement user authentication with JWT
+- ✅ Organize, document, and deploy backend applications
+- ✅ Apply industry-standard development practices
+
+---
+
+Happy coding! 🎯
