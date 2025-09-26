@@ -1,6 +1,8 @@
 # Compiled class file
 *.class
 
+# Mac OS X
+.DS_Store
 # Log file
 *.log
 

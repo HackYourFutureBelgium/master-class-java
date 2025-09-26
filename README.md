@@ -15,7 +15,7 @@ Welcome to the **Java Backend Development** course! Over the next 12 weeks, you�
 
 ## 🧭 Weekly Curriculum
 
-### [📁 `week-1` – Java & Programming Basics](./week-01/)
+### [📁 `week-1` – Java & Programming Basics](./java-week-1/)
 
 - Java syntax & structure
 - Variables, data types, operators
@@ -24,7 +24,7 @@ Welcome to the **Java Backend Development** course! Over the next 12 weeks, you�
 
 ---
 
-### [📁 `week-2` – Methods, Arrays & Intro to OOP](./week-02/)
+### [📁 `week-2` – Methods, Arrays & Intro to OOP](./java-week-2/)
 
 - Functions/methods
 - Arrays & multidimensional arrays
