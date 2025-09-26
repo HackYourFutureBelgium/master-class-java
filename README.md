@@ -13,6 +13,10 @@ Welcome to the **Java Backend Development** course! Over the next 12 weeks, you�
 
 ---
 
+**NOTE: CLICK ON THE WEEK LINKS BELOW TO ACCESS DETAILED WEEKLY MATERIALS AND ASSIGNMENTS.**
+
+---
+
 ## 🧭 Weekly Curriculum
 
 ### [📁 `week-1` – Java & Programming Basics](https://github.com/BF-BackEnd-class-2025/java-week-1)
