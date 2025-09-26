@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-week-1/02-variables-data-types/02-variables-data-types.iml" filepath="$PROJECT_DIR$/java-week-1/02-variables-data-types/02-variables-data-types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-week-1/03-arithmetic-logic-operators/03-arithmetic-logic-operators.iml" filepath="$PROJECT_DIR$/java-week-1/03-arithmetic-logic-operators/03-arithmetic-logic-operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-week-1/04-control-structures/04-control-structures.iml" filepath="$PROJECT_DIR$/java-week-1/04-control-structures/04-control-structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-week-1/05-loops/05-loops.iml" filepath="$PROJECT_DIR$/java-week-1/05-loops/05-loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-week-1/06-input-output/06-input-output.iml" filepath="$PROJECT_DIR$/java-week-1/06-input-output/06-input-output.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-week-2/java-week-2.iml" filepath="$PROJECT_DIR$/java-week-2/java-week-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/master-class-java.iml" filepath="$PROJECT_DIR$/.idea/master-class-java.iml" />
+    </modules>
+  </component>
+</project>
